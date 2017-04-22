@@ -14,104 +14,104 @@ These signals were used to estimate variables of the feature vector for each pat
 
 *Note 3:* MEAN = mean of the signal; STD = standard deviation of the signal
 
-subject_id   - Integer - Unique Identifier
-activity_desc - Factor - Type of activity
-test_tBodyAcc-mean-X - Numeric - units: -1 to 1
-test_tBodyAcc-mean-Y - Numeric - units: -1 to 1
-test_tBodyAcc-mean-Z - Numeric - units: -1 to 1
-test_tBodyAcc-std-X - Numeric - units: -1 to 1
-test_tBodyAcc-std-Y - Numeric - units: -1 to 1
-test_tBodyAcc-std-Z - Numeric - units: -1 to 1
-test_tGravityAcc-mean-X - Numeric - units: -1 to 1
-test_tGravityAcc-mean-Y - Numeric - units: -1 to 1
-test_tGravityAcc-mean-Z - Numeric - units: -1 to 1
-test_tGravityAcc-std-X - Numeric - units: -1 to 1
-test_tGravityAcc-std-Y - Numeric - units: -1 to 1
-test_tGravityAcc-std-Z - Numeric - units: -1 to 1
-test_tBodyAccJerk-mean-X - Numeric - units: -1 to 1
-test_tBodyAccJerk-mean-Y - Numeric - units: -1 to 1
-test_tBodyAccJerk-mean-Z - Numeric - units: -1 to 1
-test_tBodyAccJerk-std-X - Numeric - units: -1 to 1
-test_tBodyAccJerk-std-Y - Numeric - units: -1 to 1
-test_tBodyAccJerk-std-Z - Numeric - units: -1 to 1
-test_tBodyGyro-mean-X - Numeric - units: -1 to 1
-test_tBodyGyro-mean-Y - Numeric - units: -1 to 1
-test_tBodyGyro-mean-Z - Numeric - units: -1 to 1
-test_tBodyGyro-std-X - Numeric - units: -1 to 1
-test_tBodyGyro-std-Y - Numeric - units: -1 to 1
-test_tBodyGyro-std-Z - Numeric - units: -1 to 1
-test_tBodyGyroJerk-mean-X - Numeric - units: -1 to 1
-test_tBodyGyroJerk-mean-Y - Numeric - units: -1 to 1
-test_tBodyGyroJerk-mean-Z - Numeric - units: -1 to 1
-test_tBodyGyroJerk-std-X - Numeric - units: -1 to 1
-test_tBodyGyroJerk-std-Y - Numeric - units: -1 to 1
-test_tBodyGyroJerk-std-Z - Numeric - units: -1 to 1
-test_fBodyAcc-mean-X - Numeric - units: -1 to 1
-test_fBodyAcc-mean-Y - Numeric - units: -1 to 1
-test_fBodyAcc-mean-Z - Numeric - units: -1 to 1
-test_fBodyAcc-std-X - Numeric - units: -1 to 1
-test_fBodyAcc-std-Y - Numeric - units: -1 to 1
-test_fBodyAcc-std-Z - Numeric - units: -1 to 1
-test_fBodyAccJerk-mean-X - Numeric - units: -1 to 1
-test_fBodyAccJerk-mean-Y - Numeric - units: -1 to 1
-test_fBodyAccJerk-mean-Z - Numeric - units: -1 to 1
-test_fBodyAccJerk-std-X - Numeric - units: -1 to 1
-test_fBodyAccJerk-std-Y - Numeric - units: -1 to 1
-test_fBodyAccJerk-std-Z - Numeric - units: -1 to 1
-test_fBodyGyro-mean-X - Numeric - units: -1 to 1
-test_fBodyGyro-mean-Y - Numeric - units: -1 to 1
-test_fBodyGyro-mean-Z - Numeric - units: -1 to 1
-test_fBodyGyro-std-X - Numeric - units: -1 to 1
-test_fBodyGyro-std-Y - Numeric - units: -1 to 1
-test_fBodyGyro-std-Z - Numeric - units: -1 to 1
-train_tBodyAcc-mean-X - Numeric - units: -1 to 1
-train_tBodyAcc-mean-Y - Numeric - units: -1 to 1
-train_tBodyAcc-mean-Z - Numeric - units: -1 to 1
-train_tBodyAcc-std-X - Numeric - units: -1 to 1
-train_tBodyAcc-std-Y - Numeric - units: -1 to 1
-train_tBodyAcc-std-Z - Numeric - units: -1 to 1
-train_tGravityAcc-mean-X - Numeric - units: -1 to 1
-train_tGravityAcc-mean-Y - Numeric - units: -1 to 1
-train_tGravityAcc-mean-Z - Numeric - units: -1 to 1
-train_tGravityAcc-std-X - Numeric - units: -1 to 1
-train_tGravityAcc-std-Y - Numeric - units: -1 to 1
-train_tGravityAcc-std-Z - Numeric - units: -1 to 1
-train_tBodyAccJerk-mean-X - Numeric - units: -1 to 1
-train_tBodyAccJerk-mean-Y - Numeric - units: -1 to 1
-train_tBodyAccJerk-mean-Z - Numeric - units: -1 to 1
-train_tBodyAccJerk-std-X - Numeric - units: -1 to 1
-train_tBodyAccJerk-std-Y - Numeric - units: -1 to 1
-train_tBodyAccJerk-std-Z - Numeric - units: -1 to 1
-train_tBodyGyro-mean-X - Numeric - units: -1 to 1
-train_tBodyGyro-mean-Y - Numeric - units: -1 to 1
-train_tBodyGyro-mean-Z - Numeric - units: -1 to 1
-train_tBodyGyro-std-X - Numeric - units: -1 to 1
-train_tBodyGyro-std-Y - Numeric - units: -1 to 1
-train_tBodyGyro-std-Z - Numeric - units: -1 to 1
-train_tBodyGyroJerk-mean-X - Numeric - units: -1 to 1
-train_tBodyGyroJerk-mean-Y - Numeric - units: -1 to 1
-train_tBodyGyroJerk-mean-Z - Numeric - units: -1 to 1
-train_tBodyGyroJerk-std-X - Numeric - units: -1 to 1
-train_tBodyGyroJerk-std-Y - Numeric - units: -1 to 1
-train_tBodyGyroJerk-std-Z - Numeric - units: -1 to 1
-train_fBodyAcc-mean-X - Numeric - units: -1 to 1
-train_fBodyAcc-mean-Y - Numeric - units: -1 to 1
-train_fBodyAcc-mean-Z - Numeric - units: -1 to 1
-train_fBodyAcc-std-X - Numeric - units: -1 to 1
-train_fBodyAcc-std-Y - Numeric - units: -1 to 1
-train_fBodyAcc-std-Z - Numeric - units: -1 to 1
-train_fBodyAccJerk-mean-X - Numeric - units: -1 to 1
-train_fBodyAccJerk-mean-Y - Numeric - units: -1 to 1
-train_fBodyAccJerk-mean-Z - Numeric - units: -1 to 1
-train_fBodyAccJerk-std-X - Numeric - units: -1 to 1
-train_fBodyAccJerk-std-Y - Numeric - units: -1 to 1
-train_fBodyAccJerk-std-Z - Numeric - units: -1 to 1
-train_fBodyGyro-mean-X - Numeric - units: -1 to 1
-train_fBodyGyro-mean-Y - Numeric - units: -1 to 1
-train_fBodyGyro-mean-Z - Numeric - units: -1 to 1
-train_fBodyGyro-std-X - Numeric - units: -1 to 1
-train_fBodyGyro-std-Y - Numeric - units: -1 to 1
-train_fBodyGyro-std-Z - Numeric - units: -1 to 1
+* subject_id   - Integer - Unique Identifier
+* activity_desc - Factor - Type of activity
+* test_tBodyAcc-mean-X - Numeric - units: -1 to 1
+* test_tBodyAcc-mean-Y - Numeric - units: -1 to 1
+* test_tBodyAcc-mean-Z - Numeric - units: -1 to 1
+* test_tBodyAcc-std-X - Numeric - units: -1 to 1
+* test_tBodyAcc-std-Y - Numeric - units: -1 to 1
+* test_tBodyAcc-std-Z - Numeric - units: -1 to 1
+* test_tGravityAcc-mean-X - Numeric - units: -1 to 1
+* test_tGravityAcc-mean-Y - Numeric - units: -1 to 1
+* test_tGravityAcc-mean-Z - Numeric - units: -1 to 1
+* test_tGravityAcc-std-X - Numeric - units: -1 to 1
+* test_tGravityAcc-std-Y - Numeric - units: -1 to 1
+* test_tGravityAcc-std-Z - Numeric - units: -1 to 1
+* test_tBodyAccJerk-mean-X - Numeric - units: -1 to 1
+* test_tBodyAccJerk-mean-Y - Numeric - units: -1 to 1
+* test_tBodyAccJerk-mean-Z - Numeric - units: -1 to 1
+* test_tBodyAccJerk-std-X - Numeric - units: -1 to 1
+* test_tBodyAccJerk-std-Y - Numeric - units: -1 to 1
+* test_tBodyAccJerk-std-Z - Numeric - units: -1 to 1
+* test_tBodyGyro-mean-X - Numeric - units: -1 to 1
+* test_tBodyGyro-mean-Y - Numeric - units: -1 to 1
+* test_tBodyGyro-mean-Z - Numeric - units: -1 to 1
+* test_tBodyGyro-std-X - Numeric - units: -1 to 1
+* test_tBodyGyro-std-Y - Numeric - units: -1 to 1
+* test_tBodyGyro-std-Z - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-mean-X - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-mean-Y - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-mean-Z - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-std-X - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-std-Y - Numeric - units: -1 to 1
+* test_tBodyGyroJerk-std-Z - Numeric - units: -1 to 1
+* test_fBodyAcc-mean-X - Numeric - units: -1 to 1
+* test_fBodyAcc-mean-Y - Numeric - units: -1 to 1
+* test_fBodyAcc-mean-Z - Numeric - units: -1 to 1
+* test_fBodyAcc-std-X - Numeric - units: -1 to 1
+* test_fBodyAcc-std-Y - Numeric - units: -1 to 1
+* test_fBodyAcc-std-Z - Numeric - units: -1 to 1
+* test_fBodyAccJerk-mean-X - Numeric - units: -1 to 1
+* test_fBodyAccJerk-mean-Y - Numeric - units: -1 to 1
+* test_fBodyAccJerk-mean-Z - Numeric - units: -1 to 1
+* test_fBodyAccJerk-std-X - Numeric - units: -1 to 1
+* test_fBodyAccJerk-std-Y - Numeric - units: -1 to 1
+* test_fBodyAccJerk-std-Z - Numeric - units: -1 to 1
+* test_fBodyGyro-mean-X - Numeric - units: -1 to 1
+* test_fBodyGyro-mean-Y - Numeric - units: -1 to 1
+* test_fBodyGyro-mean-Z - Numeric - units: -1 to 1
+* test_fBodyGyro-std-X - Numeric - units: -1 to 1
+* test_fBodyGyro-std-Y - Numeric - units: -1 to 1
+* test_fBodyGyro-std-Z - Numeric - units: -1 to 1
+* train_tBodyAcc-mean-X - Numeric - units: -1 to 1
+* train_tBodyAcc-mean-Y - Numeric - units: -1 to 1
+* train_tBodyAcc-mean-Z - Numeric - units: -1 to 1
+* train_tBodyAcc-std-X - Numeric - units: -1 to 1
+* train_tBodyAcc-std-Y - Numeric - units: -1 to 1
+* train_tBodyAcc-std-Z - Numeric - units: -1 to 1
+* train_tGravityAcc-mean-X - Numeric - units: -1 to 1
+* train_tGravityAcc-mean-Y - Numeric - units: -1 to 1
+* train_tGravityAcc-mean-Z - Numeric - units: -1 to 1
+* train_tGravityAcc-std-X - Numeric - units: -1 to 1
+* train_tGravityAcc-std-Y - Numeric - units: -1 to 1
+* train_tGravityAcc-std-Z - Numeric - units: -1 to 1
+* train_tBodyAccJerk-mean-X - Numeric - units: -1 to 1
+* train_tBodyAccJerk-mean-Y - Numeric - units: -1 to 1
+* train_tBodyAccJerk-mean-Z - Numeric - units: -1 to 1
+* train_tBodyAccJerk-std-X - Numeric - units: -1 to 1
+* train_tBodyAccJerk-std-Y - Numeric - units: -1 to 1
+* train_tBodyAccJerk-std-Z - Numeric - units: -1 to 1
+* train_tBodyGyro-mean-X - Numeric - units: -1 to 1
+* train_tBodyGyro-mean-Y - Numeric - units: -1 to 1
+* train_tBodyGyro-mean-Z - Numeric - units: -1 to 1
+* train_tBodyGyro-std-X - Numeric - units: -1 to 1
+* train_tBodyGyro-std-Y - Numeric - units: -1 to 1
+* train_tBodyGyro-std-Z - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-mean-X - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-mean-Y - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-mean-Z - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-std-X - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-std-Y - Numeric - units: -1 to 1
+* train_tBodyGyroJerk-std-Z - Numeric - units: -1 to 1
+* train_fBodyAcc-mean-X - Numeric - units: -1 to 1
+* train_fBodyAcc-mean-Y - Numeric - units: -1 to 1
+* train_fBodyAcc-mean-Z - Numeric - units: -1 to 1
+* train_fBodyAcc-std-X - Numeric - units: -1 to 1
+* train_fBodyAcc-std-Y - Numeric - units: -1 to 1
+* train_fBodyAcc-std-Z - Numeric - units: -1 to 1
+* train_fBodyAccJerk-mean-X - Numeric - units: -1 to 1
+* train_fBodyAccJerk-mean-Y - Numeric - units: -1 to 1
+* train_fBodyAccJerk-mean-Z - Numeric - units: -1 to 1
+* train_fBodyAccJerk-std-X - Numeric - units: -1 to 1
+* train_fBodyAccJerk-std-Y - Numeric - units: -1 to 1
+* train_fBodyAccJerk-std-Z - Numeric - units: -1 to 1
+* train_fBodyGyro-mean-X - Numeric - units: -1 to 1
+* train_fBodyGyro-mean-Y - Numeric - units: -1 to 1
+* train_fBodyGyro-mean-Z - Numeric - units: -1 to 1
+* train_fBodyGyro-std-X - Numeric - units: -1 to 1
+* train_fBodyGyro-std-Y - Numeric - units: -1 to 1
+* train_fBodyGyro-std-Z - Numeric - units: -1 to 1
 
 # Data used
 1. features.txt - list of original variable names
